@@ -63,7 +63,7 @@
                     @else
                         <!-- Jika belum login, tampilkan tombol login -->
                         <li class="nav-item">
-                            <a href="{{ route('admin') }}" class="nav-link btn btn-primary text-white px-3">Login</a>
+                            <a href="{{ route('login') }}" class="nav-link btn btn-primary text-white px-3">Login</a>
                         </li>
                     @endif
                 </ul>
